@@ -3013,7 +3013,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "32V 3A SMD"
 			(at 57.15 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3166,7 +3166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f64ecf-5598-4b5b-9d49-301b071e4e31")
-		(property "Reference" "J2"
+		(property "Reference" "VOUT"
 			(at 81.28 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3227,7 +3227,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "J2")
+					(reference "VOUT")
 					(unit 1)
 				)
 			)
@@ -3324,7 +3324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e8c882f-e12a-4dd2-b86a-f3ea29ea89d9")
-		(property "Reference" "U1"
+		(property "Reference" "Buck"
 			(at 121.92 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3408,7 +3408,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "U1")
+					(reference "Buck")
 					(unit 1)
 				)
 			)
@@ -4546,7 +4546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a334a22b-cb16-4cf7-9739-4590ee91b657")
-		(property "Reference" "J1"
+		(property "Reference" "VIN"
 			(at 43.18 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -4606,7 +4606,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "J1")
+					(reference "VIN")
 					(unit 1)
 				)
 			)
@@ -4784,7 +4784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b045b980-8ebb-4879-9347-addda1db0a40")
-		(property "Reference" "U3"
+		(property "Reference" "TVS"
 			(at 45.72 44.4501 0)
 			(hide yes)
 			(show_name no)
@@ -4864,7 +4864,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "U3")
+					(reference "TVS")
 					(unit 1)
 				)
 			)
