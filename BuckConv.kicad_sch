@@ -2736,17 +2736,17 @@
 	)
 	(global_label "VOUT"
 		(shape input)
-		(at 74.93 41.91 180)
+		(at 74.93 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d3284206-9341-4e98-9cf2-f7690710fb80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.2276 41.91 0)
+			(at 82.6324 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2754,7 +2754,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -2841,7 +2841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06543326-2133-44cb-8f61-68a8cab5c6d5")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 85.344 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2905,7 +2905,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2923,7 +2923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ac62c5d-2f3f-43c4-9f36-18509deb94b1")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 173.99 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2984,7 +2984,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3166,7 +3166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f64ecf-5598-4b5b-9d49-301b071e4e31")
-		(property "Reference" "VOUT"
+		(property "Reference" "VOUT1"
 			(at 81.28 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3227,7 +3227,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "VOUT")
+					(reference "VOUT1")
 					(unit 1)
 				)
 			)
@@ -3245,7 +3245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bb86f42-d2d5-44c7-b9bb-06cc64bc8ead")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 99.06 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3306,7 +3306,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3324,7 +3324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e8c882f-e12a-4dd2-b86a-f3ea29ea89d9")
-		(property "Reference" "Buck"
+		(property "Reference" "Buck1"
 			(at 121.92 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3408,7 +3408,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "Buck")
+					(reference "Buck1")
 					(unit 1)
 				)
 			)
@@ -3425,7 +3425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3435beac-6e71-4ea6-bfed-51e7f6c3680c")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 188.214 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3489,7 +3489,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3587,7 +3587,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b7fc62f-3a94-4504-abfa-aa16b64ef8f3")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 110.744 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3651,7 +3651,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3669,7 +3669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c41f268-ef1f-4a97-ae6b-63891da2764c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR01"
 			(at 41.91 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3730,7 +3730,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "#PWR09")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3747,7 +3747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f3b6ecf-af29-4b0b-af22-18953a9bcb22")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 114.3 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3809,7 +3809,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3827,7 +3827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b2ad5d1-f24d-4aa2-917e-c9da5f8fe0a5")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 186.69 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3888,7 +3888,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3905,7 +3905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "887e8410-5a44-4501-860f-97ba72c5d1da")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 184.912 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,7 +3967,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3984,7 +3984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88dda5a5-3074-472f-a810-a24b6c513766")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 176.784 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,7 +4048,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4066,7 +4066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a102cda-b1cf-4809-a455-c6f0fba0c3be")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 119.38 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4127,7 +4127,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4216,7 +4216,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 186.69 113.03 180)
+		(at 186.69 113.03 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4226,7 +4227,7 @@
 		(dnp no)
 		(uuid "8dd1ccb0-4c36-432f-88d4-be4188e399eb")
 		(property "Reference" "R6"
-			(at 188.214 111.76 0)
+			(at 185.166 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4237,7 +4238,7 @@
 			)
 		)
 		(property "Value" "19k1"
-			(at 188.214 114.3 0)
+			(at 185.166 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4248,7 +4249,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 188.468 113.03 90)
+			(at 184.912 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4386,7 +4387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e8930ac-b460-41ac-ac1f-b645a41a246f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 92.71 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4447,7 +4448,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4464,7 +4465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f8453e3-2140-4f83-9940-131aee23c874")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 165.354 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4528,7 +4529,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4546,7 +4547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a334a22b-cb16-4cf7-9739-4590ee91b657")
-		(property "Reference" "VIN"
+		(property "Reference" "VIN1"
 			(at 43.18 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -4606,7 +4607,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "VIN")
+					(reference "VIN1")
 					(unit 1)
 				)
 			)
@@ -4624,7 +4625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a422c59e-2411-45b9-94c4-d1f8f5b11be6")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 201.93 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4685,7 +4686,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4702,7 +4703,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a42b2441-8d3d-4bff-8395-003f60b0825c")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 124.714 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4766,7 +4767,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4784,7 +4785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b045b980-8ebb-4879-9347-addda1db0a40")
-		(property "Reference" "TVS"
+		(property "Reference" "TVS1"
 			(at 45.72 44.4501 0)
 			(hide yes)
 			(show_name no)
@@ -4864,7 +4865,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "TVS")
+					(reference "TVS1")
 					(unit 1)
 				)
 			)
@@ -4961,7 +4962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7766d58-40a8-40e1-add6-daf00dd963b3")
-		(property "Reference" "C8"
+		(property "Reference" "C3"
 			(at 98.806 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5025,7 +5026,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "C8")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5123,7 +5124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cecae4d0-9c64-422b-b431-e27aea17c769")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 112.014 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5187,7 +5188,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5296,7 +5297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e28c7e22-0215-4b03-9d10-ccb3c2faa533")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 109.22 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5357,7 +5358,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5374,7 +5375,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7cf246b-fc9a-4aa6-a11a-2e55fd525e91")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 95.504 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5438,7 +5439,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5456,7 +5457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f93ad921-9451-45cb-bc39-019eb22acfec")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 91.44 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5517,7 +5518,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5534,7 +5535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fefc7fa2-7a84-49eb-8f63-102c9d4abc2a")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 144.526 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5598,7 +5599,7 @@
 		(instances
 			(project "BuckConv"
 				(path "/d69936d5-b4d9-4025-8f72-c772abe6b57b"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)

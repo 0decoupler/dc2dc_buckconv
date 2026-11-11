@@ -74,11 +74,6 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.3,
-          "via_gap": 0.5,
-          "width": 0.3
         }
       ],
       "drc_exclusions": [],
@@ -218,7 +213,9 @@
         0.0,
         0.0,
         0.3,
-        0.5
+        0.5,
+        1.0,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -254,6 +251,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -691,7 +692,7 @@
         "uuid": "d69936d5-b4d9-4025-8f72-c772abe6b57b"
       }
     ],
-    "used_designators": "F1,TVS1,Buck1,J1-2,VOUT1,L1,#PWR1-9,D1,VIN1,U1-3,C1-8,R1-7,TP1-3",
+    "used_designators": "F1,TVS1,VOUT1,L1,J1-2,TP1-3,VIN1,C1-8,U1-3,#PWR1-9,D1,R1-7,Buck1",
     "variants": []
   },
   "sheets": [
