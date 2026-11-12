@@ -692,7 +692,7 @@
         "uuid": "d69936d5-b4d9-4025-8f72-c772abe6b57b"
       }
     ],
-    "used_designators": "F1,TVS1,VOUT1,L1,J1-2,TP1-3,VIN1,C1-8,U1-3,#PWR1-9,D1,R1-7,Buck1",
+    "used_designators": "TP1-3,L1,VOUT1,J1-2,TVS1,F1,VIN1,U1-3,C1-8,#PWR1-9,D1,R1-7,Buck1",
     "variants": []
   },
   "sheets": [
