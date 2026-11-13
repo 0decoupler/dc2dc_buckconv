@@ -7,6 +7,12 @@ and up to 3 A
 
 here, i track it.
 
+3D View:
+![3dv](../buckconv/assets/3dbuck.png)
+
+PCB Layout:
+![lay](../buckconv/assets/3dbuckL)
+
 some problems i noticed with my design:
 - [ ] as the datasheet's layout example seems to target 2+ layer boards, i just opted for regular traces with the vias instead of the SW copper pour in the internal layer. cant really know if it causes issues. should not in theory
 - [ ] having issues with 3D models loading
